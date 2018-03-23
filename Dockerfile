@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-RUN apt-get clean -y
+RUN apt clean -y
 
 RUN apt update && \
     apt install -y ansible && \
