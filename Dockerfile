@@ -4,4 +4,5 @@ RUN apt update \
     && apt install ansible \
     && mkdir -p /root/.ssh
 
+VOLUME ["/etc/ansible"]
 WORKDIR /etc/ansible
